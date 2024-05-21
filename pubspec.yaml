@@ -1,0 +1,25 @@
+name: safe_device_continued
+description: With the Flutter safe_device_continued package, you can easily implement security steps such as Jailbroken, root, emulator detection.
+version: 1.0.0
+homepage: https://github.com/naufalulwan/safe_device_continued
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.naufalulwan.safe_device_continued
+        pluginClass: SafeDevicePlugin
+      ios:
+        pluginClass: SafeDevicePlugin
