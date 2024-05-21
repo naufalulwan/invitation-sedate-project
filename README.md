@@ -1,4 +1,4 @@
-# safe_device_continued_continued (Null-Safety)
+# safe_device_continued (Null-Safety)
 
 <a href="https://pub.dev/packages/safe_device_continued"><img src="https://img.shields.io/badge/pub-1.1.4-blue" alt="Safe Device" height="18"></a>
 
